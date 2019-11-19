@@ -1,0 +1,36 @@
+For a better visual Consider the maze shown below. For the purposes of this assignment, there are
+exactly two valid paths from the ‘@’ character to the exit: 
+
+ ###########
+ # #@  #####
+ #   # #####
+ # ### #####
+ #    e   ##
+ ##### ## ##
+ #####     #
+ ###########
+Original Maze 
+
+ ###########
+ # #.  #####
+ #...# #####
+ #.### #####
+ #.....   ##
+ ##### ## ##
+ #####     #
+ ###########
+   Path #1
+
+ ###########
+ # #...#####
+ #   #.#####
+ # ###.#####
+ #    .   ##
+ ##### ## ##
+ #####     #
+ ###########
+   Path #2
+
+When creating a string to denote a path, we indicate each directional movement from the person’s starting
+position using a single character: ‘u’ (up), ‘d’ (down), ‘l’ (left), or ‘r’ (right). For example,
+the strings representing the two paths above are as follows: “d l l d d r r r r”
